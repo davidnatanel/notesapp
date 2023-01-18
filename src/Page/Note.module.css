@@ -1,0 +1,69 @@
+.container {
+    height: 300px;
+    width: 300px;
+    padding: 1%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.container:hover .containersvg {
+    opacity: 100%;
+}
+
+.container h2 {
+    width: 50%;
+    height: 10%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+.container textarea {
+    height: 75%;
+    margin-top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+
+    width: 100%;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    font-size: 1.2em;
+    background-color: transparent;
+    display: flex;
+
+    resize: none;
+    border: none;
+
+}
+
+.container textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.container p:nth-last-of-type(1) {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    color: rgb(70, 53, 53);
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3em;
+
+}
+
+.containersvg {
+    opacity: 0%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 3em;
+}
+
+.containersvg svg {
+    color: red;
+}

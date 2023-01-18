@@ -1,0 +1,93 @@
+.light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  background-color: var(--backgroundwhite);
+}
+
+.light input {
+  background-color: gray;
+}
+
+.dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100px;
+  background-color: var(--backgroundBlack);
+  color: white;
+}
+
+
+.list {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+
+
+}
+
+.input {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input input {
+  width: 50%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: large;
+  font-weight: bold;
+
+}
+
+.darklight {
+  position: relative;
+  background-color: rgb(139, 54, 189);
+  height: 30px;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 40px;
+  border: 1px solid rgb(68, 60, 60);
+}
+
+.dark button {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 45%;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  font-size: small;
+  font-weight: bolder;
+  color: whitesmoke;
+  background-color: var(--backgroundBlack);
+}
+
+
+
+.light button {
+  position: absolute;
+  right: 0;
+
+  height: 100%;
+  width: 45%;
+  border-radius: 10px 0px 0px 10px;
+  border: none;
+  font-size: small;
+  font-weight: bolder;
+
+  background-color: rgb(212, 221, 220);
+}
